@@ -56,9 +56,7 @@ SciPy.stats for distributions
 
 ## How to Run this Project
 
-Clone the GitHub repository containing [stastical analysis FIFA.ipynb](https://github.com/user-attachments/files/24147843/stastical.analysis.FIFA.ipynb)
-
-Place the DGame.xlsx dataset (18,207 players, 88 columns) in the same directory​
+Dowload the project file ----> [stastical analysis FIFA.ipynb](https://github.com/user-attachments/files/24147843/stastical.analysis.FIFA.ipynb)​
 
 Launch Jupyter: jupyter notebook​
 
