@@ -8,7 +8,7 @@ The FIFA Player Dataset ("Game.xlsx") provides a comprehensive collection of att
 
 Data inspection and cleaning (shape: 18,207×88, null value handling)
 
-Outlier detection in Wages using IQR method (top: L. Messi at 565K, L. Suárez at 455K)
+Outlier detection in Wages using IQR method (top: L. Messi, L. Suaez)
 
 Statistical distributions (Normal vs t-distribution, Standard Normal on Potential)
 
