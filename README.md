@@ -54,6 +54,16 @@ Matplotlib and Seaborn for visualizations
 
 SciPy.stats for distributions
 
+## How to Run this Project
+
+Clone the GitHub repository containing stastical-analysis-FIFA.ipynb
+
+Place the DGame.xlsx dataset (18,207 players, 88 columns) in the same directory​
+
+Launch Jupyter: jupyter notebook​
+
+Open stastical-analysis-FIFA.ipynb and run all cells sequentially
+
 
 ## Key Insights
 
