@@ -18,26 +18,25 @@ Using Python, Pandas, NumPy, Matplotlib, Seaborn, and SciPy, this project demons
 * Demonstrate the Central Limit Theorem (CLT) using player potential scores.
 
 -------------
-📊 Dataset Information
+## 📊 Dataset Information
 
-**Dataset Name**: FIFA Player Dataset `(Game.xlsx)`
-
-**Total Records**: 18,207 players
-**Total Features**: 88 attributes
+* **Dataset Name**: FIFA Player Dataset `(Game.xlsx)`
+* **Total Records**: 18,207 players
+* **Total Features**: 88 attributes
 
 ## Important Columns
-* ID – Unique player identifier
-* Name – Player name
-* Age – Player age
-* Nationality – Country of origin
-* Overall – Current performance rating
-* Potential – Future performance potential
-* Club – Player's current club
-* Wage – Weekly salary (€)
-* Weight – Player weight
-* Height – Player height
-* Position – Playing position (ST, GK, CM, etc.)
-* Skill Attributes – Passing, Dribbling, Finishing, etc.
+* **ID** – Unique player identifier
+* **Name** – Player name
+* **Age** – Player age
+* **Nationality** – Country of origin
+* **Overall** – Current performance rating
+* **Potential** – Future performance potential
+* **Club** – Player's current club
+* **Wage** – Weekly salary (€)
+* **Weight** – Player weight
+* **Height** – Player height
+* **Position** – Playing position (ST, GK, CM, etc.)
+* **Skill Attributes** – Passing, Dribbling, Finishing, etc.
 ------------------------
 ## ⚙️ Project Workflow
 ### Data Inspection
@@ -63,13 +62,13 @@ Using Python, Pandas, NumPy, Matplotlib, Seaborn, and SciPy, this project demons
 -------------------
 
 ## 🛠️ Technologies Used
-**Python**
-**Pandas** – Data Cleaning & Manipulation
-**NumPy** – Numerical Calculations
-6**Matplotlib** – Data Visualization
-**Seaborn** – Statistical Visualization
-**SciPy** – Statistical Distributions
-**Jupyter Notebook**
+* **Python**
+* **Pandas** – Data Cleaning & Manipulation
+* **NumPy** – Numerical Calculations
+* **Matplotlib** – Data Visualization
+* **Seaborn** – Statistical Visualization
+* **SciPy** – Statistical Distributions
+* **Jupyter Notebook**
 ---------------------
 
 ## 📈 Key Analyses Performed
