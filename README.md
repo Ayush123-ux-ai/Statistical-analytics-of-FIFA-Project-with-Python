@@ -1,75 +1,103 @@
-# Statistical-analytics-of-FIFA-Project-with-Python
+# ⚽ Statistical Analytics of FIFA Players using Python
+--------------------
+## 📌 Project Overview
 
-## Project Overview
+This project performs a statistical data analysis of FIFA player attributes using Python. The dataset contains 18,207 football players with 88 attributes, including demographic information, performance ratings, financial data, and physical characteristics.
 
-The FIFA Player Dataset ("Game.xlsx") provides a comprehensive collection of attributes for football players, including demographic details (e.g., Age, Nationality), performance metrics (e.g., Overall, Potential), financial data (e.g., Wage, Value), and physical characteristics (e.g., Weight, Height). This dataset, sourced from a football simulation game, offers a rich opportunity to apply advanced statistical techniques to uncover insights about player profiles, performance potential, and economic valuation. The objective of this project is to perform an end-to-end data analytics study using Python and Pandas, focusing on statistical methods to analyze distributions, detect anomalies, estimate population parameters, and validate statistical theorems. The project aims to provide actionable insights for stakeholders such as football scouts, team managers, and game developers by exploring relationships between player attributes and their market value, demographic trends, and performance distributions.4
+The goal of this project is to apply statistical techniques and data analysis methods to understand player performance, detect anomalies in wages, explore relationships between skills and overall ratings, and analyze demographic trends across different player positions.
 
-## Key Analyses Performed
+Using Python, Pandas, NumPy, Matplotlib, Seaborn, and SciPy, this project demonstrates how statistical methods can uncover insights useful for football scouts, club managers, analysts, and game developers.
 
-Data inspection and cleaning (shape: 18,207×88, null value handling)
+---------------
+## 🎯 Project Objectives
+* Perform data inspection and cleaning to ensure data quality.
+* Identify outliers in player wages using statistical techniques.
+* Analyze statistical distributions of player attributes.
+* Study the relationship between skills and overall player ratings.
+* Perform ANOVA tests to examine differences in physical attributes across positions.
+* Demonstrate the Central Limit Theorem (CLT) using player potential scores.
 
-Outlier detection in Wages using IQR method (top: L. Messi, L. Suaez)
+-------------
+📊 Dataset Information
 
-Statistical distributions (Normal vs t-distribution, Standard Normal on Potential)
+**Dataset Name**: FIFA Player Dataset `(Game.xlsx)`
 
-Correlation matrix of skills with Overall/Potential ratings
+**Total Records**: 18,207 players
+**Total Features**: 88 attributes
 
-ANOVA tests on physical attributes (Height, Weight) by Position
+## Important Columns
+* ID – Unique player identifier
+* Name – Player name
+* Age – Player age
+* Nationality – Country of origin
+* Overall – Current performance rating
+* Potential – Future performance potential
+* Club – Player's current club
+* Wage – Weekly salary (€)
+* Weight – Player weight
+* Height – Player height
+* Position – Playing position (ST, GK, CM, etc.)
+* Skill Attributes – Passing, Dribbling, Finishing, etc.
+------------------------
+## ⚙️ Project Workflow
+### Data Inspection
+* Loaded dataset using **Pandas**
+* Checked dataset shape **(18,207 × 88)**
+* Inspected missing values and data types
+### Data Cleaning
+* Handled missing values
+* Standardized wage and value columns
+* Prepared variables for statistical analysis
+### Outlier Detection
+* Applied Interquartile Range (IQR) method
+* Detected extreme wage values
+### Distribution Analysis
+* Analyzed Potential distribution
+* Compared Normal distribution vs Student’s t-distribution
+### Correlation Analysis
+* Studied relationships between skill attributes and player ratings
+### Statistical Testing
+* Applied ANOVA tests on physical attributes by position
+### Central Limit Theorem Demonstration
+* Sample means of Potential were analyzed to validate CLT
+-------------------
 
-Central Limit Theorem demonstration via sample means of Potential
+## 🛠️ Technologies Used
+**Python**
+**Pandas** – Data Cleaning & Manipulation
+**NumPy** – Numerical Calculations
+6**Matplotlib** – Data Visualization
+**Seaborn** – Statistical Visualization
+**SciPy** – Statistical Distributions
+**Jupyter Notebook**
+---------------------
 
-## Dataset Details
+## 📈 Key Analyses Performed
+* Dataset inspection and cleaning
+* Outlier detection in Wage column using IQR
+* Distribution analysis of Potential
+* Comparison of Normal vs Student’s t-distribution
+* Correlation analysis of player skills with Overall and Potential ratings
+* ANOVA tests on Height and Weight across player positions
+* Central Limit Theorem demonstration using sample means
+---------------------------
 
-The dataset contains 18,207 records (rows) and multiple columns, including but not limited to:
+## 🔍 Key Insights
+* Elite players such as Lionel Messi and Cristiano Ronaldo appear as wage outliers, reflecting the extreme salary differences between star players and the rest of the player population.
+* The Potential rating distribution is approximately normal, with most players falling within the 65–85 range, indicating a balanced distribution of player potential.
+* ShortPassing shows the strongest correlation (~0.50) with Overall and Potential ratings, suggesting that passing ability plays a major role in overall player performance.
+* Other important skills influencing player ratings include:
+  * Dribbling
+  * Finishing
+  * Long Passing
+* ANOVA results show significant differences in Height and Weight across positions, confirming that physical attributes vary depending on player roles.
+* The Central Limit Theorem was validated, showing that the distribution of sample means of Potential becomes approximately normal when sample size ≥ 30.
+* Student’s t-distribution better captures extreme values compared to the normal distribution, making it useful when working with smaller samples.
+----------------
 
-ID: Unique player identifier
+## 📊 Conclusion
+This statistical analysis of FIFA player data highlights important relationships between player skills, physical attributes, and economic valuation. The results show that elite players significantly influence wage distributions, while core skills such as passing, dribbling, and finishing strongly impact overall performance ratings.
 
-Name: Player name
+Additionally, statistical tests confirm that physical characteristics vary across playing positions, supporting the idea that recruitment strategies should consider both technical and physical attributes.
 
-Age: Player age
-
-Nationality: Player's country of origin
-
-Overall: Current performance rating
-
-Potential: Potential performance rating
-
-Club: Current club
-
-Wage: Weekly wage (in €, with 'K' or 'M' suffixes)
-
-Weight: Player weight (in lbs)
-
-Position: Player's field position (e.g., ST, GK, CM)
-
-Additional Attributes: Skills (e.g., Dribbling, Passing), physical metrics, and contract details
-
-## Libraries Used
-
-Pandas for data processing
-
-NumPy for calculations
-
-Matplotlib and Seaborn for visualizations
-
-SciPy.stats for distributions
-
-## How to Run this Project
-
-Dowload the project file ----> [stastical analysis FIFA.ipynb](https://github.com/user-attachments/files/24147843/stastical.analysis.FIFA.ipynb)​
-
-Launch Jupyter: jupyter notebook​
-
-Open stastical-analysis-FIFA.ipynb and run all cells sequentially
-
-
-## Key Insights
-
-The FIFA player data analysis across 18,207 players and 88 attributes reveals L.Messi,L.Suarez,L.Modric,Cristiano Ronaldo , and Luka Modrić as extreme outliers detected via IQR method, highlighting massive valuation disparities. ShortPassing shows the strongest correlation (0.50) with Overall/Potential ratings, alongside Dribbling, Finishing, and LongPassing, underscoring playmaking skills as key performance predictors. ANOVA confirms significant Height/Weight differences by position (p=0.0), supporting targeted recruitment, while Central Limit Theorem validation demonstrates sample means of Potential normalize for n≥30, and distributions fit Normal centrally but t-distribution better captures extremes.
-
-
-
-
-
-
-
+These findings demonstrate how statistical analytics can provide valuable insights for football analytics, talent scouting, and player valuation models.
