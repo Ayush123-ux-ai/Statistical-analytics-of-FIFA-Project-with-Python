@@ -38,7 +38,7 @@ Using Python, Pandas, NumPy, Matplotlib, Seaborn, and SciPy, this project demons
 * **Position** – Playing position (ST, GK, CM, etc.)
 * **Skill Attributes** – Passing, Dribbling, Finishing, etc.
 ------------------------
-## ⚙️ Project Workflow
+## ⚙️ Steps Taken
 ### Data Inspection
 * Loaded dataset using **Pandas**
 * Checked dataset shape **(18,207 × 88)**
