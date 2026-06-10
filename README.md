@@ -99,4 +99,4 @@ This statistical analysis of FIFA player data highlights important relationships
 
 Additionally, statistical tests confirm that physical characteristics vary across playing positions, supporting the idea that recruitment strategies should consider both technical and physical attributes.
 
-These findings demonstrate how statistical analytics can provide valuable insights for football analytics, talent scouting, and player valuation models.
+These findings demonstrate how statistical analytics can provide valuable insights for football analytics, talent scouting, and player valuation models
